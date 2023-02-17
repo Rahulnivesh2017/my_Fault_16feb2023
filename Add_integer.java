@@ -10,17 +10,17 @@ public static void main(String []args)
 
   Scanner sc=new Scanner(System.in);
 
-  System.out.println("Enter integer number one");
+  System.out.println("Enter the first integer number");
 
   num1=sc.nextInt();
 
-  System.out.println("Enter integer number two");
+  System.out.println("Enter the second integer number");
 
   num2=sc.nextInt();
 
   res=num1+num2;
 
-  System.out.println("sum of two number " +res);
+  System.out.println("sum of two integer number " +res);
 
   }
 
